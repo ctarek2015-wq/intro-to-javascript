@@ -19,3 +19,34 @@ let longString = `Hello, ${username} and welcome to the application!
 Get started by logging in below!
 We're happy to have you. ${greeting}`;
 console.log("1"===1);
+console.log(false || null || true || 0 || "" || NaN);
+console.log(true && "false" && "5");
+
+const val = '3';
+
+if (val === 1) {
+  console.log('val is one');
+} else if (val === 2) {
+  console.log('val is two');
+} else if (val === 3) {
+  console.log('val is three');
+} else {
+  console.log('not one, two, or three');
+}
+
+// val is 3, so 'val is three' will be printed.
+
+const value = 'banana';
+
+if (value === 'green') {
+    console.log('go');
+} else if (value === 'yellow') {
+    console.log('slow');
+} else if (value === 'red') {
+    console.log('stop');
+} else {
+    console.log('go up');
+
+
+}
+
