@@ -34,8 +34,6 @@ if (val === 1) {
   console.log('not one, two, or three');
 }
 
-// val is 3, so 'val is three' will be printed.
-
 const value = 'banana';
 
 if (value === 'green') {
@@ -46,7 +44,19 @@ if (value === 'green') {
     console.log('stop');
 } else {
     console.log('go up');
-
-
 }
 
+const salary = 500;
+const ticketPrice = 50;
+const currency = 'BHD';
+
+if (salary >= ticketPrice) {
+    console.log( `Round trip ticket = ${ticketPrice * 2} ${currency}.
+You can afford ${salary / ticketPrice / 2} round trip tickets.`);
+} else {
+    console.log("Bro, You're broke.")
+}
+
+if (salary >= ticketPrice && salary <= 750) {
+    console.log( 'you can go home' )
+} 
